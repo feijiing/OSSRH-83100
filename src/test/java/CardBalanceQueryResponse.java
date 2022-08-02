@@ -1,4 +1,4 @@
-import dto.KltBaseResponse;
+import io.github.feijiing.dto.KltBaseResponse;
 import lombok.Data;
 import lombok.ToString;
 

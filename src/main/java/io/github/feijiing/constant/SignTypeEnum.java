@@ -1,4 +1,4 @@
-package constant;
+package io.github.feijiing.constant;
 
 
 /**

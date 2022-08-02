@@ -1,9 +1,9 @@
-package utils;
+package io.github.feijiing.utils;
 
 import cn.hutool.core.util.HexUtil;
 import cn.hutool.crypto.SmUtil;
 import cn.hutool.crypto.asymmetric.SM2;
-import constant.SignTypeEnum;
+import io.github.feijiing.constant.SignTypeEnum;
 
 import java.nio.charset.StandardCharsets;
 

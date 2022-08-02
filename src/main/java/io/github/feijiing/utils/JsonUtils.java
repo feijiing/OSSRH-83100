@@ -1,4 +1,4 @@
-package utils;
+package io.github.feijiing.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;

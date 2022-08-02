@@ -1,4 +1,4 @@
-package utils;
+package io.github.feijiing.utils;
 
 /**
  * @ClassName:StringUtils

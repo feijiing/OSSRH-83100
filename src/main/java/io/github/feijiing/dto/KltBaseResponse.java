@@ -1,4 +1,4 @@
-package dto;
+package io.github.feijiing.dto;
 
 import lombok.Data;
 

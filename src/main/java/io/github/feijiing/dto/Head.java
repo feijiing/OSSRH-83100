@@ -1,7 +1,7 @@
-package dto;
+package io.github.feijiing.dto;
 
+import io.github.feijiing.utils.StringUtils;
 import lombok.Data;
-import utils.StringUtils;
 
 import java.io.Serializable;
 
