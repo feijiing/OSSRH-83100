@@ -21,7 +21,7 @@ import java.util.TreeMap;
 /**
  * @ClassName:KltMchtClient
  * @author: daifei
- * @Description:
+ * @Description: encode client
  * @Date: 2022/7/28 10:20
  * @Version: v1.0
  */
@@ -98,10 +98,11 @@ public class KltMchtClient {
     }
 
     /**
-     * 对响应结果解码并封装响应结果，只有国密需要解码
+     *
      *
      * @param response
-     * @return
+     * @return T
+     * @Description  对响应结果解码并封装响应结果，只有国密需要解码
      */
     public <T> T decodeAndRenderResponse(String response, Class<T> responseType) {
         if (SignTypeEnum.RSA.equals(signType)) {
